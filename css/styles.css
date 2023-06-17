@@ -1,0 +1,276 @@
+:root {
+    --title-text-color:#2E2F42;
+    --usual-text-color:#434455;
+    --white-text-color:#F4F4FD;
+    --accent-color:#4D5AE5;
+    --primary-bcg-color:#FFFFFF;
+    --secondary-bcg-color: #E5E5E5;
+    --dark-bcg-color:#2E2F42 ;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--primary-bcg-color);
+    color: var(--usual-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+}
+
+/* ========HEADER======== */
+
+.link-logo {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color
+}
+
+.menu-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--primary-text-color)
+
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+
+.contact-info {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--usual-text-color)
+}
+
+.contact-info:hover,
+.contact-info:focus {
+    color: var(--accent-color);
+}
+
+/* ========/HEADER======== */
+
+/* ========MAIN-PORTFOLIO======== */
+
+.title-hide {
+    display: none;
+}
+
+.button-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    
+
+    
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+width: 126px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+
+
+.button-item:hover,
+.button-item:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.works-list-title {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+}
+
+.works-list-text {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+
+/* ========/MAIN-PORTFOLIO======== */
+
+
+/* ========STUDIO-HERO======== */
+
+.hero-title {
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--white-text-color);
+}
+
+.hero-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--accent-color);
+    background-color: #FFFFFF; 
+}
+
+/* ========/STUDIO-HERO======== */
+
+/* ========SECTION-MARKETING======== */
+
+.marketing-hide-title {
+    display:none;
+}
+
+.marketing-title {
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+}
+
+.marketing-text {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+
+/* ========/SECTION-MARKETING======== */
+
+/* ========SECTION-OUR-PRODUCTS======== */
+
+.products-title {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--title-text-color)
+}
+
+/* ========/SECTION-OUR-PRODUCTS======== */
+
+/* ========SECTION-OUR-TEAM======== */
+
+.team-main-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color)
+}
+
+
+.team-item-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color)
+    
+}
+
+.team-item-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+
+
+}
+
+/* ========/SECTION-OUR-TEAM======== */
+
+
+
+/* ========FOOTER======== */
+
+.footer-text {
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--white-text-color);
+}
+
+
+
+/* ========/FOOTER======== */
+
+
