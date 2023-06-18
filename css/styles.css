@@ -101,7 +101,7 @@ color: var(--usual-text-color)
     color: var(--accent-color);
     background-color:#F4F4FD;
     cursor: pointer;
-
+}
     
 /* box-sizing: border-box;
 display: flex;
@@ -117,7 +117,7 @@ border-radius: 4px;
 flex: none;
 order: 4;
 flex-grow: 0; */
-}
+
 
 
 
