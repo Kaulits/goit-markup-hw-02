@@ -41,10 +41,10 @@ body {
     color: #2e2f42 ;
 }
 
-/* .logo:hover,
+.logo:hover,
 .logo:focus {
-    color
-} */
+    color: #404bbf;
+}
 
 .menu-link {
 font-weight: 500;
@@ -55,8 +55,8 @@ color: var(--primary-text-color);
 
 }
 
-.nav-list:hover,
-.nav-list:focus {
+.menu-item:hover,
+.menu-item:focus {
     color: #404bbf;
 }
 
