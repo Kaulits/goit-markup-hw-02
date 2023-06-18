@@ -26,44 +26,43 @@ body {
 
 /* ========HEADER======== */
 
-.link-logo {
-    color: var(--accent-color);
-    font-family: Raleway, sans-serif;
-}
-
 .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--title-text-color);
+    color: #4D5AE5;
 }
 
-.logo:hover,
+
+.dark-logo {
+    color: #2e2f42 ;
+}
+
+/* .logo:hover,
 .logo:focus {
     color
-}
+} */
 
 .menu-link {
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
-color: var(--primary-text-color)
+color: var(--primary-text-color);
 
 }
 
-.menu-link:hover,
-.menu-link:focus {
-    color: var(--accent-color);
+.nav-list:hover,
+.nav-list:focus {
+    color: #404bbf;
 }
 
 
-.contact-info {
+.contact-info,
+.contact {
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -74,23 +73,23 @@ color: var(--usual-text-color)
 
 .contact-info:hover,
 .contact-info:focus {
-    color: var(--accent-color);
+    color: #404bbf;
 }
 
 /* ========/HEADER======== */
 
 /* ========MAIN-PORTFOLIO======== */
 
-.title-hide {
+/* .title-hide {
     display: none;
-}
+} */
 
 .button-item {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
@@ -98,7 +97,7 @@ color: var(--usual-text-color)
     
 
     
-box-sizing: border-box;
+/* box-sizing: border-box;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -111,7 +110,7 @@ border: 1px solid #E7E9FC;
 border-radius: 4px;
 flex: none;
 order: 4;
-flex-grow: 0;
+flex-grow: 0; */
 }
 
 
@@ -144,43 +143,48 @@ letter-spacing: 0.02em;
 
 /* ========STUDIO-HERO======== */
 
+.hero {
+background-color:#2e2f42;
+}
+
 .hero-title {
 font-style: normal;
 font-weight: 700;
 font-size: 56px;
-line-height: 60px;
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: var(--white-text-color);
+color: #ffffff;
 }
 
 .hero-button {
     font-style: normal;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; */
+    cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    color: var(--accent-color);
-    background-color: #FFFFFF; 
+    background-color: #404BBF; 
 }
 
 /* ========/STUDIO-HERO======== */
 
 /* ========SECTION-MARKETING======== */
 
-.marketing-hide-title {
+/* .marketing-hide-title {
     display:none;
-}
+} */
 
 .marketing-title {
     font-style: normal;
@@ -207,7 +211,7 @@ letter-spacing: 0.02em;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -218,23 +222,30 @@ color: var(--title-text-color)
 
 /* ========SECTION-OUR-TEAM======== */
 
+.team {
+    background-color: #F4F4FD;
+}
+
 .team-main-title {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-text-color)
 }
 
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-item-title {
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -260,16 +271,22 @@ color: var(--title-text-color)
 
 /* ========FOOTER======== */
 
-.footer-text {
-    font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: var(--white-text-color);
+.footer {
+    background-color: #2e2f42;
 }
 
+.footer-text {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
 
+.white-logo {
+    color: #f4f4fd;
+}
 
 /* ========/FOOTER======== */
 
